@@ -18,9 +18,6 @@
       "server": [
         "./dist/server/index.d.ts"
       ],
-      "server/express": [
-        "./dist/server/express/index.d.ts"
-      ],
       "server/grpc": [
         "./dist/server/grpc/index.d.ts"
       ],
@@ -42,11 +39,6 @@
       "types": "./dist/server/index.d.ts",
       "import": "./dist/server/index.js",
       "require": "./dist/server/index.cjs"
-    },
-    "./server/express": {
-      "types": "./dist/server/express/index.d.ts",
-      "import": "./dist/server/express/index.js",
-      "require": "./dist/server/express/index.cjs"
     },
     "./server/grpc": {
       "types": "./dist/server/grpc/index.d.ts",
